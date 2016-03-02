@@ -7,7 +7,7 @@ defmodule Gizoogle.Mixfile do
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     description: "Allows you ta drop a rhyme like a thug by utilizin Gizoogle",
+     description: "Uses Gizoogle ta allow you ta drop a rhyme like a thug n' retrieve links fo' translated sitez",
      package: package,
      deps: deps,
      docs: [extras: ["README.md"]]]
