@@ -30,7 +30,7 @@ defmodule Gizoogle.Mixfile do
      maintainers: ["Devin Clark"],
      licenses: ["MIT"],
      links: %{"GitHub"   => "https://github.com/notdevinclark/gizoogle",
-              "Docs"     => "https://github.com/notdevinclark/gizoogle",
+              "Docs"     => "https://hexdocs.pm/gizoogle/readme.html",
               "Gizoogle" => "http://www.gizoogle.net/textilizer.php"}]
   end
 end
