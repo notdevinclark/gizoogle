@@ -9,7 +9,8 @@ defmodule Gizoogle.Mixfile do
      start_permanent: Mix.env == :prod,
      description: "Allows you ta drop a rhyme like a thug by utilizin Gizoogle",
      package: package,
-     deps: deps]
+     deps: deps,
+     docs: [extras: ["README.md"]]]
   end
 
   def application do
@@ -17,7 +18,11 @@ defmodule Gizoogle.Mixfile do
   end
 
   defp deps do
-    [{:httpoison, "~> 0.8.0"}]
+    [
+      {:httpoison, "~> 0.8.0"},
+      {:earmark, ">= 0.0.0", only: :dev},
+      {:ex_doc,  ">= 0.0.0", only: :dev}
+    ]
   end
 
   defp package do
