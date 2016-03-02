@@ -1,5 +1,9 @@
 # Gizoogle
 
+[![Hex.pm](https://img.shields.io/hexpm/l/gizoogle.svg)](https://hex.pm/packages/gizoogle)
+[![Hex.pm](https://img.shields.io/hexpm/v/gizoogle.svg)](https://hex.pm/packages/gizoogle)
+[![Hex.pm](https://img.shields.io/hexpm/dt/gizoogle.svg)](https://hex.pm/packages/gizoogle)
+
 Allows you ta drop a rhyme like a thug by utilizin [Gizoogle](http://www.gizoogle.net/textilizer.php)
 
 **Warning:** This may contain profanitizzle n' other possibly bitch ass terms, obviously take dis as parodizzle.
