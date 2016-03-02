@@ -1,0 +1,31 @@
+defmodule Gizoogle.Mixfile do
+  use Mix.Project
+
+  def project do
+    [app: :gizoogle,
+     version: "0.0.1",
+     elixir: "~> 1.2",
+     build_embedded: Mix.env == :prod,
+     start_permanent: Mix.env == :prod,
+     description: "Allows you ta drop a rhyme like a thug by utilizin Gizoogle",
+     package: package,
+     deps: deps]
+  end
+
+  def application do
+    [applications: [:httpoison]]
+  end
+
+  defp deps do
+    [{:httpoison, "~> 0.8.0"}]
+  end
+
+  defp package do
+    [files: ["lib", "config", "mix.exs", "README*"],
+     maintainers: ["Devin Clark"],
+     licenses: ["MIT"],
+     links: %{"GitHub"   => "https://github.com/notdevinclark/gizoogle",
+              "Docs"     => "https://github.com/notdevinclark/gizoogle",
+              "Gizoogle" => "http://www.gizoogle.net/textilizer.php"}]
+  end
+end
