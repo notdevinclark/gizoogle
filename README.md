@@ -1,5 +1,7 @@
 # Gizoogle
 
+![](http://i.imgur.com/eBIIUp0.gif)
+
 [![Hex.pm](https://img.shields.io/hexpm/l/gizoogle.svg)](https://hex.pm/packages/gizoogle)
 [![Hex.pm](https://img.shields.io/hexpm/v/gizoogle.svg)](https://hex.pm/packages/gizoogle)
 [![Hex.pm](https://img.shields.io/hexpm/dt/gizoogle.svg)](https://hex.pm/packages/gizoogle)
