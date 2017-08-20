@@ -20,7 +20,7 @@ defmodule Gizoogle.Parser do
   end
 
   defp scan(text) do
-    :xmerl_scan.string(String.to_char_list(text))
+    :xmerl_scan.string(String.to_charlist(text))
   end
 
   defp parse({html, _}) do
