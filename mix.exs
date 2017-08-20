@@ -4,12 +4,12 @@ defmodule Gizoogle.Mixfile do
   def project do
     [app: :gizoogle,
      version: "0.0.2",
-     elixir: "~> 1.2",
+     elixir: "~> 1.5",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      description: "Uses Gizoogle ta allow you ta drop a rhyme like a thug n' retrieve links fo' translated sitez",
-     package: package,
-     deps: deps,
+     package: package(),
+     deps: deps(),
      docs: [extras: ["README.md"]]]
   end
 
@@ -19,7 +19,7 @@ defmodule Gizoogle.Mixfile do
 
   defp deps do
     [
-      {:httpoison, "~> 0.8.0"},
+      {:httpoison, "~> 0.13"},
       {:earmark, ">= 0.0.0", only: :dev},
       {:ex_doc,  ">= 0.0.0", only: :dev}
     ]
